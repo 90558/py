@@ -18,4 +18,4 @@ for i in range(len(thresholds)):
         bonus += thresholds[i]*rates[i]
         profit -= thresholds[i]
 bonus += profit*rates[i]
-print(bonus)
+print('奖金：' + str(bonus))
